@@ -184,5 +184,5 @@ downstreamRunnerJob('sso', 'keycloak', 'runtimes_common', '/sso/7.6.0/rh-sso-7.6
 downstreamRunnerJob('amq_broker', 'activemq', 'runtimes_common', '/amq/broker/7.9.4/amq-broker-7.9.4-bin.zip')
 downstreamRunnerJob('amq_streams', '', 'runtimes_common', '/amq/streams/2.5.1/')
 downstreamRunnerJob('rhbk', 'keycloak_quarkus', 'runtimes_common', '/keycloak/22.0.6/rhbk-22.0.6.zip')
-downstreamRunnerJob('data_grid', '', 'runtimes_common', '/datagrid/7.3.11/jboss-datagrid-7.3.11-server.zip')
+downstreamRunnerJob('data_grid', 'infinispan', 'runtimes_common', '/datagrid/7.3.11/jboss-datagrid-7.3.11-server.zip')
 EapView.jobList(this, 'Ansible Downstream Runner', '^ansible-downstream-runner-.*$')
